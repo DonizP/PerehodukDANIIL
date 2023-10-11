@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pracrice</title>
+    <style>
+        span {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <p>
+        <img src="childbook1.jpeg" alt="img"><br>
+        Данную картинку вставил  в формате JPEG по причине того,<br>
+        что при её использовании не нужна полупрозрачность,<br>
+        а также нет сложных градиент-переходов.
+        
+    </p>
+    <p>
+        <img src="childbook2.png" alt="img"><br>
+        Данную картинку вставил в формате PNG по ричине того,<br>
+        что , это сложная картинка с множеством градиента и данный формат <br>
+        обеспечит максимальную чёткость картинки.
+    </p>
+    <p>
+        <img src="childbook3.gif" alt="img"><br>
+        Данную картинку вставил в формате GIF по причине того,<br>
+        что это простая картинка без градиента с использованием стандартных цветов.
+    </p>
+    <br>
+    <br>
+    <br>
+    <h1>Форма заяввки на работу</h1>
+    <p><em>Поожалуйста, заполните форму. Обязательные поля помечены<em><span><sup>*</sup></span></p>
+    <form action="https://fe.it-academy.by/TestForm.php" method="get">
+        <fieldset>
+            <legend>Контактная информация</legend>
+            <table>
+                <tr>
+                    <th>Имя</th>
+                    <th><input type="text" name="name"></th>
+                </tr>
+                <tr>
+                    <th>Телефон</th>
+                    <th><input type="text" name="phone"></th>
+                </tr>
+                <tr>
+                    <th>Email</th>
+                    <th><input type="text" name="email"></th>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>Персональная информация</legend>
+            <table>
+                <tr>
+                    <th>Возраст</th>
+                    <th><input type="text" name="age"></th>
+                </tr>
+                <tr>
+                    <th>Пол</th>
+                    <th><select name="gender">
+                        <option value="male">Мужской</option>
+                        <option value="female">Женский</option>
+                    </th>
+                </tr>
+                <tr>
+                    <th>Перечислите<br>
+                        личные<br>
+                        качества</th>
+                    <th><textarea name="qualities"></textarea></th>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>Выберите ваших любимых животных</legend>
+            <table>
+                <tr>
+                    <th><input type="checkbox" name="check1">Зебра</th>
+                    <th><input type="checkbox" name="check2">Собака</th>
+                    <th><input type="checkbox" name="check3">Кот</th>
+                    <th><input type="checkbox" name="check4">Жираф</th>
+                </tr>
+                <tr>
+                    <th><input type="checkbox" name="check10">Тюлень</th>
+                    <th><input type="checkbox" name="check20">Удав</th>
+                    <th><input type="checkbox" name="check30">Бегемот</th>
+                    <th><input type="checkbox" name="check40">Медведь</th>
+                </tr>
+            </table>
+        </fieldset>
+    <input type="submit">
+</body>
