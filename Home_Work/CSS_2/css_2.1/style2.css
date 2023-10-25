@@ -1,0 +1,52 @@
+.card1{
+    width: 139px;
+    height: 190px;
+    background-color: red;
+    background-image: url(cards.7e0a18f0.png);
+    background-position: 140px;
+    float: left;
+}
+.card2{
+    width: 139px;
+    height: 190px;
+    background-color: red;
+    background-image: url(cards.7e0a18f0.png);
+    background-position-x: 0px;
+    background-position-y: 787px;
+    float: left;
+    margin-top: 85px;
+    margin-left: -72px;
+}
+.card3{
+    width: 139px;
+    height: 190px;
+    background-color: red;
+    background-image: url(cards.7e0a18f0.png);
+    background-position-x: 283px;
+    background-position-y: -1393px;
+    float: left;
+    margin-top: 170px;
+    margin-left: -72px;
+}
+.card4{
+    width: 139px;
+    height: 190px;
+    background-color: red;
+    background-image: url(cards.7e0a18f0.png);
+    background-position-x: -144px;
+    background-position-y: 389px;
+    float: left;
+    margin-top: 255px;
+    margin-left: -72px;
+}
+.card5{
+    width: 139px;
+    height: 190px;
+    background-color: red;
+    background-image: url(cards.7e0a18f0.png);
+    background-position-x: 0px;
+    background-position-y: 190px;
+    float: left;
+    margin-top: 340px;
+    margin-left: -72px;
+}
