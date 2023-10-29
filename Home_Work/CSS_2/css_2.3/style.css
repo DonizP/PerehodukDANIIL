@@ -5,6 +5,7 @@
     width: 15em;
     background-color: grey;
     float: left;
+    margin-bottom: .2em;
 }
 .content{
     background-color:dimgray;
