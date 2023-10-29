@@ -1,0 +1,29 @@
+.wrap{
+    background-color: darkgrey;
+}
+.menu{
+    width: 15em;
+    background-color: grey;
+    float: left;
+}
+.content{
+    background-color:dimgray;
+    margin-left: 15em;
+    margin-bottom: .2em;
+}
+.footer{
+    background-color: gray ;
+    clear: both;
+}
+.clear{
+    clear: both;
+}
+.email{
+   float: right;
+}
+.spacer{
+    clear: both;
+}
+h3{
+    margin: 0;
+}
