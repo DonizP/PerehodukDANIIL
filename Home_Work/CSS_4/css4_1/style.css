@@ -1,0 +1,18 @@
+div{
+    width: 40%;
+    height: 110px;
+    border: 1px solid #1C6EA4;
+    border-radius: 0px 10px 0px 10px;
+}
+ul li{
+    list-style-image: url(file.jpg);
+}
+li:nth-child(1):hover{
+    background-image: url(word.jpg);
+}
+li:nth-child(2):hover{
+    background-image: url(pdf.png);
+}
+li:nth-child(3):hover{
+    background: url(zip.gif);
+}
