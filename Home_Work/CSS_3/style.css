@@ -1,0 +1,46 @@
+div.MenuLevel1 { 
+    width: 100% 
+}
+div.MenuLevel1 > div { 
+    float: left;
+    width: 150px;
+    height: 20px;
+    background-color: lightgray; 
+    border: solid black 1px; 
+    position: relative; 
+    cursor: pointer;
+    color: dimgray; 
+}
+div.MenuLevel2 { 
+    width: 150px; 
+    opacity: 0;
+    -webkit-transition: all 1s linear 0.3s;
+    -moz-transition: all 1s linear 0.3s;
+    -o-transition: all 1s linear 0.3s;
+    transition: all 1s linear 0.3s; 
+}
+div.MenuLevel2 > div { 
+    background-color: lightgray; 
+    border: solid black 1px; 
+    cursor: pointer;
+    color: dimgray; 
+} 
+div.MenuLevel1 > div:hover div.MenuLevel2 { 
+    opacity: 1;
+}
+div.MenuLevel1 > div:hover{
+    background-color: darkgray;
+    color: lightgray;
+}
+@media all and (max-width:1077px){
+    div.MenuLevel1 > div{
+        float: none;
+    }
+    div.MenuLevel1 > div:hover div.MenuLevel2{
+        opacity: 1;
+        position: absolute;
+        left: 100%;
+        top: 0;
+        z-index: 1;
+    }
+}
