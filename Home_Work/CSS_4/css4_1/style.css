@@ -4,15 +4,33 @@ div{
     border: 1px solid #1C6EA4;
     border-radius: 0px 10px 0px 10px;
 }
+a[href$='.doc1']::before{
+    content: url(image.png);
+}
+a[href$='pdf1']::before{
+    content: url(image.png);
+}
+a[href$='zip1']::before{
+    content: url(image.png);
+}
+a[href$='.doc2']::before{
+    content: url(word.jpg);
+}
+a[href$='pdf2']::before{
+    content: url(pdf.png);
+}
+a[href$='zip2']::before{
+    content: url(zip.gif);
+}
 ul li{
     list-style-image: url(file.jpg);
 }
-li:nth-child(1):hover{
-    background-image: url(word.jpg);
+li:nth-child(1):hover ::after{
+    content: url(word.jpg);
 }
-li:nth-child(2):hover{
-    background-image: url(pdf.png);
+li:nth-child(2):hover ::after{
+    content: url(pdf.png);
 }
-li:nth-child(3):hover{
-    background: url(zip.gif);
+li:nth-child(3):hover ::after{
+    content: url(zip.gif);
 }
