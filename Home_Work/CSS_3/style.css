@@ -32,7 +32,7 @@ div.MenuLevel1 > div:hover{
     background-color: darkgray;
     color: lightgray;
 }
-@media all and (max-width:1077px){
+@media all and (max-width:1080px){
     div.MenuLevel1 > div{
         float: none;
     }
